@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body
+{
+    width: 100%;
+    height: 120vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/img.webp"); */
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/wood-desktop-wooden-aerial.jpg");
+    /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("./images/1.webp"); */
+
+
+    background-repeat: no-repeat;
+    background-position:  center center;
+    background-size: cover;
+    /* background-image: linear-gradient(to left , grey ,white); */
+
+}
+.box
+{
+   max-width: 35%;
+    margin:20px auto;
+    font-size: small;
+    background-image: linear-gradient(to left, );
+    border-radius: 10px ;
+    box-shadow: rgb(84, 45, 79,0.5) 0px 5px 15px;
+    background: rgba(0, 0, 0, 0.37);
+    color: lightgray;
+    
+    font-weight: bold;
+    font-family: sans-serif;
+}
+fieldset legend
+{
+    margin: 0 auto;
+    padding: 20px;
+
+}
+fieldset{
+    border: none;
+    padding: 30px;
+    
+}
+
+/* 
+    transition: 0.5s linear;
+}
+fieldset h1:hover{ */
+.login{
+    border:none;
+    background: none;
+    /* margin: 0 15px 15px 15px; */
+    display: inline-block;
+    padding: 5px;
+    width: max-content;
+margin: 0 10px 15px 35px;
+    
+}
+
+.login a
+{
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+
+    font-size: x-large;
+
+
+}
+.SignUp
+{
+    border:none;
+    background: none; 
+    /* margin: 0 30px 15px 30px; */
+    /* margin: 0 15px 25px 15px; */
+    width: max-content;
+    margin: 0 40px 15px auto;
+    padding: 5px;
+    display: inline-block;
+}
+.fieldBox .SignUp{
+    border-bottom: 3px solid #04aa6d; 
+
+}
+.SignUp a{
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+    font-size: x-large;
+}
+label:hover{
+    color: #04aa6d;
+}
+.login:hover
+{
+    border-bottom: 3px solid #04aa6d; 
+   
+
+}
+
+.fieldSet .login{
+    border-bottom: 3px solid #04aa6d;
+}
+
+
+
+
+form input{
+    display: block;
+    margin: 15px 0;
+    height: 40px;
+    padding: 10px;
+    width: 80%;
+    transition: 0.6s ease;
+    border-radius: 16px ;
+    border: 2px solid gray;
+    color: lightgray;
+    background-color: transparent;
+    outline:none
+}
+form input:hover{
+    /* color: lightgray; */
+    color: #04aa6d;
+    width: 100%;
+    border: 2px solid  #04aa6d;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+form input#i-agree
+{
+    display: inline-block;
+    padding: 0;
+    height: 15px;
+    margin: 0;
+    background-color: orange;
+    width: 20px;
+    transition: 0.6s ease;
+}
+/* input[type=text]:hover{
+    color: #04aa6d;
+} */
+input .chk-box:hover{
+    border: 2px solid #04aa6d;
+/* height: 20px; */
+}
+.btn{
+    display: block;
+    background-color: #04aa6d;
+    border:none;
+    border-radius: 16px;
+    padding: 12px;
+    width: 25%;
+    color: lightgray;
+    margin: 10px  auto 0 auto;
+    transition: 0.6s ease;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    width: 50%;
+    height: 10%;
+}
+.fieldSet input{
+    margin: 25px 0;
+
+}
+.fieldSet{
+    height: 530px;
+/* padding: ; */
+        /* margin: 50px auto; */
+   
+}
+
+.fieldSet .SignUp:hover{
+border-bottom: 3px solid #04aa6d;
+}
+.For-pass {
+    display: block;
+    color: #04aa6d;
+    width: max-content;
+    margin: 15px auto;
+    /* background-color: orange; */
+    
+}
+.fieldSet .login a {
+    color: #04aa6d;
+}
+.fieldBox .SignUp a{
+    color: #04aa6d;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+    <div class="container">
+<div class="box">
+  <fieldset class="fieldBox">
+      <legend><img src="./images/profile.png" width="80"></legend>
+      <button class="SignUp"><a href="index.html">SignUp Form</a></button>
+      
+      <button class="login"><a href="loginPage.html">Login Form</a></button>
+      <form action="">
+          <label for="Username">USERNAME</label>
+          <input type="text"  minlength="7" maxlength="15" required placeholder="Username" name="name" id="Username">
+          <label for="email">E-MAIL</label>
+          <input type="email" placeholder="Email" required name="email" id="email">
+          <label for="password">PASSWORD</label>
+          <input type="password" maxlength="8" placeholder="Password" required name="password" id="password">
+          <label for="conf-password">CONFIRM PASSWORD</label>
+          <input type="password" maxlength="8" placeholder="Confirm Password" required name="conf-password" id="conf-password">
+          
+          
+          <label for="i-agree"> 
+            <input type="checkbox" required class="chk-box" name="i-agree" id="i-agree">
+         I agree with term & conditions
+    </label>
+         <button class="btn">Sign Up</button>
+    
+
+      </form>
+  </fieldset>
+</div>
+    </div>
+</body>
+</html>
